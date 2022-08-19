@@ -18,7 +18,6 @@ const CategoryLightning = () => {
 
     const pokemons = list
 
-    console.log(pokemons)
 
     setPokemons(pokemons)
     setFilteredPokemons(pokemons[3].items)

@@ -11,7 +11,6 @@ const GenerationII = () => {
 
   const [filteredPokemons, setFilteredPokemons] = useState([]);
   const [pokemons, setPokemons] = useState([]);
-  const [id, setId] = useState(0);
 
   useEffect(() => {
     const loadGens = async () => {
@@ -19,7 +18,6 @@ const GenerationII = () => {
 
     const pokemons = list
 
-    console.log(list)
     setPokemons(pokemons)
 
     setFilteredPokemons(pokemons[3].items)
@@ -29,7 +27,6 @@ const GenerationII = () => {
   }, [])
 
   useEffect(() => {
-    console.log(filteredPokemons)
   }, [filteredPokemons])
   
     

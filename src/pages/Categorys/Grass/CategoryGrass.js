@@ -18,7 +18,6 @@ const CategoryGrass = () => {
 
     const pokemons = list
 
-    console.log(pokemons)
 
     setPokemons(pokemons)
     setFilteredPokemons(pokemons[0].items)

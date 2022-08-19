@@ -12,18 +12,6 @@ const Generation = () => {
 
   const [filteredPokemons, setFilteredPokemons] = useState([]);
   const [pokemons, setPokemons] = useState([]);
-  const [id, setId] = useState(0);
-
-
-  // const NUMBER_POKEMONS = 12;
-
-  const updateState = (id) => {
-    console.log(id, pokemons)
-   const updatedList = pokemons.find(e => e.id == id)
-
-   setFilteredPokemons(prevPoke => [...updatedList.items])
-   console.log(updatedList)
-  }
 
 
   useEffect(() => {

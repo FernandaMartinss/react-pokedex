@@ -19,7 +19,6 @@ const CategoryWater = () => {
 
     const pokemons = list
 
-    console.log(pokemons)
 
     setPokemons(pokemons)
     setFilteredPokemons(pokemons[2].items)

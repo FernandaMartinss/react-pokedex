@@ -19,7 +19,6 @@ const GenerationIII = () => {
 
     const pokemons = list
 
-    console.log(list)
     setPokemons(pokemons)
 
     setFilteredPokemons(pokemons[1].items)
@@ -29,7 +28,6 @@ const GenerationIII = () => {
   }, [])
 
   useEffect(() => {
-    console.log(filteredPokemons)
   }, [filteredPokemons])
   
     
