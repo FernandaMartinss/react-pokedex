@@ -18,17 +18,17 @@ const CategorysButtons = () => {
           <img className='mr-2' width={20} src={SvgGrass} />
           <span>Grass</span>
         </a>
-        <a className='flex items-center bg-white font-bold text-sm text-sm hover:scale-105  text-orange-500  py-1 px-2 md:text-lg md:px-4 border-2 border-orange-500 rounded shadow duration-100' href='/category/fire'>
+        <a className='flex items-center bg-white font-bold text-sm  hover:scale-105  text-orange-500  py-1 px-2 md:text-lg md:px-4 border-2 border-orange-500 rounded shadow duration-100' href='/category/fire'>
         <img className='mr-2' width={20} src={SvgFire} />
           
           <span>Fire</span>
         </a>
-        <a className='flex items-center bg-white font-bold text-sm text-sm hover:scale-105 text-blue-500 py-1 px-2 md:text-lg md:px-4 border-2 border-blue-500 rounded shadow duration-100' href='/category/water'>
+        <a className='flex items-center bg-white font-bold text-sm hover:scale-105 text-blue-500 py-1 px-2 md:text-lg md:px-4 border-2 border-blue-500 rounded shadow duration-100' href='/category/water'>
         <img className='mr-2' width={20} src={SvgWater} />
           
           <span>Water</span>
           </a>
-        <a className='flex items-center bg-white font-bold text-sm text-sm hover:scale-105 text-yellow-500 py-1 px-2 md:text-lg md:px-4 border-2 border-yellow-500 rounded shadow duration-100' href='/category/lightning'>
+        <a className='flex items-center bg-white font-bold text-sm hover:scale-105 text-yellow-500 py-1 px-2 md:text-lg md:px-4 border-2 border-yellow-500 rounded shadow duration-100' href='/category/lightning'>
         <img className='mr-2' width={20} src={SvgLightning} />
          
           <span>Lightning</span>
